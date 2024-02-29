@@ -23,16 +23,18 @@ register page:
 connect page:
 - 創建房間: 創建成功返回房間號碼 。
 - 加入房間: 輸入創房者給你的號碼。
-- 登出：回到login page
+- 登出：回到login page。
 
 map page:
 - google map 視圖
   - 顯示房內每個人的位置。
-  - 切換並鎖定視角在選擇的人。
-  - 123
- 
-- 即時聊天室窗
-  - 即時顯示該房內聊天訊息。
+  - 切換視角並鎖定在選擇的人。
+  - 標籤顯示與對方的距離。
+>[!NOTE]
+>道路黑黑的是因為渲染器的問題：https://stackoverflow.com/questions/77641340/path-roads-are-black-in-google-maps-flutter
+
+- Chat
+  - Listview的方式即時顯示該房內聊天訊息。
   
 ## plugins
 | plugin名稱  | 官方文件說明 | 使用場景 |
