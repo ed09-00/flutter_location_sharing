@@ -39,6 +39,10 @@ map page:
 - Chat
   - Listview的方式即時顯示該房內聊天訊息。
 
+## 未來規劃
+- 使用[Directions API](https://developers.google.com/maps/documentation/directions/overview?hl=zh-tw)在地圖上顯示路線
+- 使用[Place API](https://developers.google.com/maps/documentation/places/web-service?hl=zh-tw)新增地點詳細資料搜尋功能
+
 ## plugins
 | plugin名稱  | 官方文件說明 | 使用場景 |
 | ------------- | ------------- | ------------- |
