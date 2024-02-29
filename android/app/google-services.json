@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "571158606725",
+    "firebase_url": "https://flutter-location-sharing-16614-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "flutter-location-sharing-16614",
+    "storage_bucket": "flutter-location-sharing-16614.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:571158606725:android:54a5b8382f3f7a791a0aec",
+        "android_client_info": {
+          "package_name": "com.example.flutter_location_sharing"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "571158606725-3pu70g12a74dp2neq4av6s03ct8qdkrt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.flutter_location_sharing",
+            "certificate_hash": "6e1ad860452ac38c67cb4ad6f150be023bb6e1f5"
+          }
+        },
+        {
+          "client_id": "571158606725-fiqnivll5h3mqrtha0v9ioequ3in9cdh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5Dn2sj2XLe5Tv3SHEycDRCND4NiwnJYE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "571158606725-fiqnivll5h3mqrtha0v9ioequ3in9cdh.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "571158606725-dh0hur6o606p7nkkg92ve4i8ma5vbqbp.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.flutterLocationSharing"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
