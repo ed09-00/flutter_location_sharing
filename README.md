@@ -1,28 +1,38 @@
 # Flutter 一次性GPS多人共享程式
-<img src="https://cdn.discordapp.com/attachments/917430039597965334/1212658297606512721/image.png?ex=65f2a30c&is=65e02e0c&hm=b22db36090779739dacac03a30d46d27179bc7adc43e09f98a1e34fa80c62957" height="686px" width="322px" /><img src="https://cdn.discordapp.com/attachments/917430039597965334/1212658833839620166/image.png?ex=65f2a38c&is=65e02e8c&hm=970745f0a3543780ec1e999bdf90ae111ebeed78be4cccc22a84cc28c3a70445&" height="686px" width="322px" />
+
+<img src="https://cdn.discordapp.com/attachments/917430039597965334/1212823811544715294/image.png?ex=65f33d31&is=65e0c831&hm=ea2d7009e3b73f9703edfa6f7c2e78957a45f2cf389629b9ab0f3cce384d9200&" height="536px" width="250px" /><img src="https://cdn.discordapp.com/attachments/917430039597965334/1212823853248811029/image.png?ex=65f33d3b&is=65e0c83b&hm=83273f879d798420c02cb2f2e54fd0eb528182579397761fdb999de1f31e93f3&" height="536px" width="250px" /><img src="https://media.discordapp.net/attachments/917430039597965334/1212824291582677002/image.png?ex=65f33da4&is=65e0c8a4&hm=a6e0eb7a69b0ffefebc8610414a791e18a9cb8895e8f90991ec296b97ddab9ad&=&format=webp&quality=lossless&width=284&height=611" height="536px" width="250px" /><img src="https://cdn.discordapp.com/attachments/917430039597965334/1212839931509215293/image.png?ex=65f34c35&is=65e0d735&hm=1c98cac6874f54e452f5e9d105bbf5d064832e5ece5b89385d4393c72dd3070d&" height="536px" width="250px" />
 
 
-使用Binance API 與 CoinMarketCap API獲取虛擬貨幣價格資訊並做成圖表
 
-Binance api: https://binance-docs.github.io/apidocs/spot/en/#market-data-endpoints
-CoinMarketCap: https://coinmarketcap.com/api/documentation/v1/#section/Authentication    
+
+
+
+
+
 
 ## 功能  
 welcome page:
-- 顯示項目價格。
-- 無限制的添加自選項目。
+- 判斷登入狀態來決定要去login / connect page，
 
 login page:
-- 帶有兩條均線的K線圖(SMA14, SMA28)。
-- 可選K線圖表時間週期(1m, 15m, 1h, 4h, 1d)。
+- 提供信箱登入 / google登入。
 
 register page:
-- 帶有兩條均線的K線圖(SMA14, SMA28)。
-- 可選K線圖表時間週期(1m, 15m, 1h, 4h, 1d)。
+- 信箱與密碼創建帳號。
+
+connect page:
+- 創建房間: 創建成功返回房間號碼 。
+- 加入房間: 輸入創房者給你的號碼。
+- 登出：回到login page
 
 map page:
-- 帶有兩條均線的K線圖(SMA14, SMA28)。
-- 可選K線圖表時間週期(1m, 15m, 1h, 4h, 1d)。
+- google map 視圖
+  - 顯示房內每個人的位置。
+  - 切換並鎖定視角在選擇的人。
+  - 123
+ 
+- 即時聊天室窗
+  - 即時顯示該房內聊天訊息。
   
 ## plugins
 | plugin名稱  | 官方文件說明 | 使用場景 |
